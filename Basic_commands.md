@@ -5,9 +5,10 @@
 
     USE ->  
 
-    ```cd ..               ( to go back to previous  directory )
+    ```
+            cd ..               ( to go back to previous  directory )
             
-       cd /home/ubuntu     ( go to a certain location directly )
+            cd /home/ubuntu     ( go to a certain location directly )
     ```
 
 
