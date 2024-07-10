@@ -7,7 +7,8 @@
 
     ```cd ..               ( to go back to previous  directory )
             
-       cd /home/ubuntu     ( go to a certain location directly )```
+       cd /home/ubuntu     ( go to a certain location directly )
+    ```
 
 
 3. **man -> This command helps you to know about any command which you will working throughout your linux lifecycle
