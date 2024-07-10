@@ -5,19 +5,19 @@
 
     USE ->  
 
-             cd ..               ( to go back to previous  directory ) 
+            ```cd ..               ( to go back to previous  directory )``` 
 
-             cd /home/ubuntu     ( go to a certain location directly )
+            ```cd /home/ubuntu     ( go to a certain location directly )```
 
 
-3. **man** -> This command helps you to know about any command which you will working throughout your linux lifecycle
+3. **man -> This command helps you to know about any command which you will working throughout your linux lifecycle
 
     USE -> 
 
              man cd               ( this will provide you more information about cd command )
   
 
-4. **ls** (list) -> This command will help you to list out all files ,directories and stuff present over there 
+4. ls (list) -> This command will help you to list out all files ,directories and stuff present over there 
 
     USE -> 
 
