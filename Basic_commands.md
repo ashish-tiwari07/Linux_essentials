@@ -196,8 +196,9 @@
 
 
     NOTE :- use  
-     :q! -> quit without saving changes '
-     :q  -> if not changes made 
+      1. :q! -> quit without saving changes '
+      2. :q  -> if not changes made 
+
 
 
  
@@ -209,10 +210,11 @@
              -rw-rw-r--  1 ubuntu ubuntu    0 Jul 11 19:56 file1
              -rw-rw-r--  1 ubuntu ubuntu    0 Jul 11 19:56 file2
 
-    NOTE :- first (-) represent if it is file or directory ( d menas directory )
-            next 3 (-) represents permission granted to user
-            next 3 (-) represents permission granted to groups
-            next 3 (-) represents permission granted to others
+    NOTE :- 
+    first (-) represent if it is file or directory ( d menas directory )
+    next 3 (-) represents permission granted to user
+    next 3 (-) represents permission granted to groups
+    next 3 (-) represents permission granted to others
             
             r = read , w = write , x = execute 
             values -> r = 4  , w = 2   , x =1 
