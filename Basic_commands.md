@@ -55,6 +55,7 @@
 6. **echo** -> mainly used to see whatever user writes after the command , Also can be used to alter the content in the file
 
     USE -> 
+    
              echo HYY                           ( HYY will be displayes in shell )
              echo hy!! I am learning > file1    ( messege will be passed into file1 )
  
@@ -62,8 +63,9 @@
 7. **tr** -> used to translate characters in upper or lower case 
 
     USE-> 
+
              cat file.txt | tr a-z A-Z > upper.txt
              ( this command will firstly fetch the content from file.txt and then convert all the lower to upper case and finally will save it in upper.txt file )
     
-    NOTE :- ( | ) this is known as "pipe" and is used to pass result of one command to the other specified command
+    NOTE :- ( | ) this is known as "pipe" and is used to pass result of one command to the other specified commandsss
         
