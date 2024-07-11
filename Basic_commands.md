@@ -1,4 +1,4 @@
-## Basic Commands
+## 1. Basic Commands
 
 1. **pwd** (present working directory) -> This command will help you know your present location in shell 
 
@@ -73,11 +73,11 @@
 
 ---
 
-## File Handling Commands
+## 2. File Handling Commands
 
 
 
-8. **mkdir** (make directory) -> this command is used to make a new folder 
+1. **mkdir** (make directory) -> this command is used to make a new folder 
 
     USE ->
 
@@ -85,7 +85,7 @@
 
     NOTE :- rmdir command can be used to remove an "empty folder one" 
 
-9. **touch** -> this command is used to make a new file or to update the time stamp of existing folder 
+2. **touch** -> this command is used to make a new file or to update the time stamp of existing folder 
 
     USE -> 
 
@@ -93,7 +93,7 @@
 
 
 
-10. **cp** (copy) -> this command is used to copy file or folder 
+3. **cp** (copy) -> this command is used to copy file or folder 
 
     USE -> 
     
@@ -105,7 +105,7 @@
 
 
  
-11. **mv** (move) -> used to move file from one loaction to another and to rename the file 
+4. **mv** (move) -> used to move file from one loaction to another and to rename the file 
 
     USE -> 
 
@@ -114,7 +114,7 @@
 
 
 
-12. **rm** (remove) -> as name suggest this cmd is used to remove file and folder
+5. **rm** (remove) -> as name suggest this cmd is used to remove file and folder
 
     USE -> 
 
@@ -124,7 +124,7 @@
 
 
 
-13. **head** -> used to view only few top lines of any file 
+6. **head** -> used to view only few top lines of any file 
 
     USE -> 
 
@@ -132,14 +132,14 @@
             
 
 
-14. **tail** -> used to view last few line of any file
+7. **tail** -> used to view last few line of any file
 
     USE ->
 
              tail -4 file.txt / tail -n 4 file.txt          ( both of them will show bottom 4 line of file.txt )
 
         
-15. **diff** -> This command is used to compare two files line by line 
+8. **diff** -> This command is used to compare two files line by line 
 
     USE -> 
 
@@ -147,7 +147,7 @@
 
 
 
-16. **locate** -> Used to find files in whole system 
+9. **locate** -> Used to find files in whole system 
 
     USE ->
 
@@ -156,7 +156,7 @@
              locate "*.txt"                ( * here means anything can come in this place known ad WILDCARD )
 
             
-17. **find** -> This command is also used to find file and folder with more precision
+10. **find** -> This command is also used to find file and folder with more precision
 
     USE -> 
 
@@ -165,7 +165,7 @@
 
 
 
-18. **grep** ( global regular expression print ) -> THE most important command while working with linux which basically is used to find text written in a file 
+11. **grep** ( global regular expression print ) -> THE most important command while working with linux which basically is used to find text written in a file 
 
     USE -> 
 
@@ -179,10 +179,10 @@
 
 
 
-19. **history** -> it will print all the commands that are recently used 
+12. **history** -> it will print all the commands that are recently used 
 
 
-20. **vi/vim** -> this is an alternative editor used to insert text in file 
+13. **vi/vim** -> this is an alternative editor used to insert text in file 
     USE ->   
     
             STEPS :-
@@ -203,7 +203,7 @@
 
 
  
-21. **chmod** ->  this command is used to changes the permission of file 
+14. **chmod** ->  this command is used to changes the permission of file 
 
 
              ls -al               ( this will give you details about permission granted to user , group and others )
@@ -233,7 +233,7 @@
              chmod +r/-r file1                  ( used to add add/remove read permission form all there entities )
 
 
-22. **chown** (change owner) -> This command is used to the owner of any file
+15. **chown** (change owner) -> This command is used to the owner of any file
 
     USE -> 
 
@@ -243,10 +243,10 @@
 
 
 ---
-## Networking Commands
+## 3. Networking Commands
 
 
-23. **hostname** -> to get name of the host machine
+1. **hostname** -> to get name of the host machine
 
     USE -> 
 
@@ -254,7 +254,7 @@
 
              hostname -i                          ( to figure out the IP address of hostmachine )
 
-24. **useradd** && **userdel** -> to add or delete user 
+2. **useradd** && **userdel** -> to add or delete user 
     USE-> 
 
              useradd ashish                        ( new user named ashish will me formed )
@@ -264,7 +264,7 @@
     NOTE :- if home directory is not made use flag -m and -C to get complete user space 
 
 
-25. **passwd** -> to upadte the password of user 
+3. **passwd** -> to upadte the password of user 
 
     USE -> 
 
@@ -272,18 +272,18 @@
 
 
         
-26. **du** -> to get disk usage by current files
+4. **du** -> to get disk usage by current files
 
 
-27. **df** -> to get disk usage by all files 
+5. **df** -> to get disk usage by all files 
 
 
-28. **top** -> used to get the detailed information of application running on linux ( real-time display )
+6. **top** -> used to get the detailed information of application running on linux ( real-time display )
 
         NOTE :- press q to exit 
 
 
-29. **ps** -> alternative of top command but doesn't run in real time 
+7. **ps** -> alternative of top command but doesn't run in real time 
 
     USE -> 
              
@@ -291,16 +291,16 @@
 
              ps -aux / ps -axo                      ( will get cpu % also )
 
-30. cat /etc/os-release -> to get all information about Operating System
+8. cat /etc/os-release -> to get all information about Operating System
 
-31. **wget** -> used to download files or pdf thorugh URL 
+9. **wget** -> used to download files or pdf thorugh URL 
 
     USE -> 
              
              wget https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.simplilearn.com%2Fimage-processing-article&psig=AOvVaw15XSyZYk8ielMM7WD_BYwT&ust=1720797036076000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCPDAu9Kin4cDFQAAAAAdAAAAABAJ
 
 
-31. **nslookup** -> to get IP address of any global domain
+10. **nslookup** -> to get IP address of any global domain
     
     USE -> 
 
