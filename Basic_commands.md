@@ -297,7 +297,18 @@
 
     USE -> 
              
-             wget [https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.simplilearn.com%2Fimage-processing-article&psig=AOvVaw15XSyZYk8ielMM7WD_BYwT&ust=1720797036076000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCPDAu9Kin4cDFQAAAAAdAAAAABAJ]()
+             wget https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.simplilearn.com%2Fimage-processing-article&psig=AOvVaw15XSyZYk8ielMM7WD_BYwT&ust=1720797036076000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCPDAu9Kin4cDFQAAAAAdAAAAABAJ
+
+
+31. **nslookup** -> to get IP address of any global domain
+    
+    USE -> 
+
+             nslookup google.com
+
+
+
+# Happy Learning !!
 
 
 
