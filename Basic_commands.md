@@ -55,17 +55,64 @@
 6. **echo** -> mainly used to see whatever user writes after the command , Also can be used to alter the content in the file
 
     USE -> 
-    
+
              echo HYY                           ( HYY will be displayes in shell )
+
              echo hy!! I am learning > file1    ( messege will be passed into file1 )
  
 
-7. **tr** -> used to translate characters in upper or lower case 
+
+7. **tr** (Translate) -> used to translate characters in upper or lower case 
 
     USE-> 
 
              cat file.txt | tr a-z A-Z > upper.txt
              ( this command will firstly fetch the content from file.txt and then convert all the lower to upper case and finally will save it in upper.txt file )
     
-    NOTE :- ( | ) this is known as "pipe" and is used to pass result of one command to the other specified commandsss
-        
+    NOTE :- ( | ) this is known as "pipe" and is used to pass result of one command to the other specified commands
+
+
+
+8. **mkdir** (make directory) -> this command is used to make a new folder 
+
+    USE ->
+
+             mkdir movies               ( a new folder named "movies" will appear )
+
+    NOTE :- rmdir command can be used to remove an "empty folder one" 
+
+9. **touch** -> this command is used to make a new file or to update the time stamp of existing folder 
+
+    USE -> 
+
+             touch file1.txt            ( file.txt named file will be made in present directory )
+
+
+
+10. **cp** (copy) -> this command is used to copy file or folder 
+
+    USE -> 
+    
+             cp file1.txt file2.txt     ( file2.txt is a copy of file1.txt )
+
+             cp -R folder1 folder2      ( folder1 is a copy of folder2 )
+    
+    NOTE :- if a particular location is not specified new file will be made in the present working directory 
+
+
+ 
+11. **mv** (move) -> used to move file from one loaction to another and to rename the file 
+
+    USE -> 
+
+             mv file1 /home/ubuntu      ( file1 will move to /home/ubuntu folder )
+             mv file1 file2             ( if a location is not specified and file2 doesn't exist , file1 will be renamed as file2 )
+
+
+12. **rm** (remove) -> as name suggest this cmd is used to remove file and folder
+
+    USE -> 
+
+             rm file1.txt                ( file1.txt will be removed)
+             rm -r 
+
