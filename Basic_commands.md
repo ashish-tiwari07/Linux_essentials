@@ -71,6 +71,7 @@
     
     NOTE :- ( | ) this is known as "pipe" and is used to pass result of one command to the other specified commands
 
+---
 
 ## File Handling Commands
 
@@ -217,7 +218,7 @@
             values -> r = 4  , w = 2   , x =1 
 
     USE -> 
-    
+
              chmode 745 file1                   ( 7 means user have all permission , 4 means read only to group and 5 means read and execute to others )
 
              chmod u=wr,g=r,o=wrx file1         ( another simple way to grant permissions )
