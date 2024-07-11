@@ -196,7 +196,8 @@
 
 
     NOTE :- use  
-    1.  :q! -> quit without saving changes '
+    1.  :q! -> quit without saving changes 
+
     2.  :q  -> if not changes made 
 
 
@@ -212,8 +213,11 @@
 
     NOTE :- 
     1. first (-) represent if it is file or directory ( d menas directory )
+
     2. next 3 (-) represents permission granted to user
+    
     3. next 3 (-) represents permission granted to groups
+    
     4. next 3 (-) represents permission granted to others
             
             r = read , w = write , x = execute 
