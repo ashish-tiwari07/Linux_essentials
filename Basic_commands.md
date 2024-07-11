@@ -72,6 +72,9 @@
     NOTE :- ( | ) this is known as "pipe" and is used to pass result of one command to the other specified commands
 
 
+## File Handling Commands
+
+
 
 8. **mkdir** (make directory) -> this command is used to make a new folder 
 
@@ -109,10 +112,140 @@
              mv file1 file2             ( if a location is not specified and file2 doesn't exist , file1 will be renamed as file2 )
 
 
+
 12. **rm** (remove) -> as name suggest this cmd is used to remove file and folder
 
     USE -> 
 
-             rm file1.txt                ( file1.txt will be removed)
-             rm -r 
+             rm file1.txt                ( file1.txt will be removed )
+             rm -r/rm -R                 ( used to remove folder recursively )
+             rm -rf                      ( to remove file or folder forcefully )
+
+
+
+13. **head** -> used to view only few top lines of any file 
+
+    USE -> 
+
+             head -4 file.txt / head -n 4  file.txt        ( both of them will show tops 4 line of file.txt )
+            
+
+
+14. **tail** -> used to view last few line of any file
+
+    USE ->
+
+             tail -4 file.txt / tail -n 4 file.txt          ( both of them will show bottom 4 line of file.txt )
+
+        
+15. **diff** -> This command is used to compare two files line by line 
+
+    USE -> 
+
+             diff file1 file2             
+
+
+
+16. **locate** -> Used to find files in whole system 
+
+    USE ->
+
+             locate "file.txt"             ( it will find out file.txt in system )
+             
+             locate "*.txt"                ( * here means anything can come in this place known ad WILDCARD )
+
+            
+17. **find** -> This command is also used to find file and folder with more precision
+
+    USE -> 
+
+             find . -type f -name "*.txt"
+             ( this means find in current directory whose type is file and name which starts with anything but ends with .txt extension )
+
+
+
+18. **grep** ( global regular expression print ) -> THE most important command while working with linux which basically is used to find text written in a file 
+
+    USE -> 
+
+             grep ash file.txt              ( it will fetch each word with "ash" as initial )
+             
+             grep -n ash file.txt           ( it will tell you line no. in which these words are used )
+
+             grep -c ash file.txt           ( display no. of time the word is used in file )
+
+    NOTE -> WILCARDS can be used ( discussed later in module )
+
+
+
+19. **history** -> it will print all the commands that are recently used 
+
+
+20. **vi/vim** -> this is an alternative editor used to insert text in file 
+    USE ->   
+    
+            STEPS :-
+             vi file1        -> to enter into vi editor 
+
+             press i         -> to start entering your data 
+  
+             press esc       -> once you are finished 
+
+             press :wq       -> to write ,save and quit 
+
+
+    NOTE :- use  
+     :q! -> quit without saving changes '
+     :q  -> if not changes made 
+
+
+ 
+21. **chmod** ->  this command is used to changes the permission of file 
+
+
+             ls -al               ( this will give you details about permission granted to user , group and others )
+             
+             -rw-rw-r--  1 ubuntu ubuntu    0 Jul 11 19:56 file1
+             -rw-rw-r--  1 ubuntu ubuntu    0 Jul 11 19:56 file2
+
+    NOTE :- first (-) represent if it is file or directory ( d menas directory )
+            next 3 (-) represents permission granted to user
+            next 3 (-) represents permission granted to groups
+            next 3 (-) represents permission granted to others
+            
+            r = read , w = write , x = execute 
+            values -> r = 4  , w = 2   , x =1 
+
+    USE -> 
+    
+             chmode 745 file1                   ( 7 means user have all permission , 4 means read only to group and 5 means read and execute to others )
+
+             chmod u=wr,g=r,o=wrx file1         ( another simple way to grant permissions )
+
+             chmod +r/-r file1                  ( used to add add/remove read permission form all there entities )
+
+
+22. **chown** (change owner) -> This command is used to the owner of any file
+
+    USE -> 
+
+             chown ashish file.txt               ( change owner of file.txt to ashish )
+
+    NOTE :- use SUDO if permission is denied
+
+
+
+## Networking Commands
+
+
+23. **hostname** -> to get name of the host machine
+
+    USE -> 
+
+             hostname hplaptop                    ( to temporaty change the hostname to hplaptop )
+             hostname -i                          ( to figure out the IP address of hostmachine )
+
+
+
+
 
