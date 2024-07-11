@@ -38,6 +38,7 @@
 5. **cat** (concatinate) -> this command will help you in viewing the content inside a file , making a new file along with the content to be written and append the content within a file as well
 
     USE -> 
+    
              cat readme.txt       ( this will help you to view the content inside a file )
 
              cat > hello.txt      ( it will create a new file named as hello.txt and will let you enter the content NOTE : after completion of typing press enter and then ctrl+D )    
