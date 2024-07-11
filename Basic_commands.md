@@ -221,6 +221,7 @@
     4. next 3 (-) represents permission granted to others
             
             r = read , w = write , x = execute 
+
             values -> r = 4  , w = 2   , x =1 
 
     USE -> 
@@ -250,7 +251,56 @@
     USE -> 
 
              hostname hplaptop                    ( to temporaty change the hostname to hplaptop )
+
              hostname -i                          ( to figure out the IP address of hostmachine )
+
+24. **useradd** && **userdel** -> to add or delete user 
+    USE-> 
+
+             useradd ashish                        ( new user named ashish will me formed )
+
+             userdel ashish                        ( to delete user named ashish )
+
+    NOTE :- if home directory is not made use flag -m and -C to get complete user space 
+
+
+25. **passwd** -> to upadte the password of user 
+
+    USE -> 
+
+             passwd ashish                          ( to setup new password for user ashish )
+
+
+        
+26. **du** -> to get disk usage by current files
+
+
+27. **df** -> to get disk usage by all files 
+
+
+28. **top** -> used to get the detailed information of application running on linux ( real-time display )
+
+        NOTE :- press q to exit 
+
+
+29. **ps** -> alternative of top command but doesn't run in real time 
+
+    USE -> 
+             
+             ps -ef / ps -lf                        ( to get detail of every process )
+
+             ps -aux / ps -axo                      ( will get cpu % also )
+
+30. cat /etc/os-release -> to get all information about Operating System
+
+31. **wget** -> used to download files or pdf thorugh URL 
+
+    USE -> 
+             
+             wget [](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.simplilearn.com%2Fimage-processing-article&psig=AOvVaw15XSyZYk8ielMM7WD_BYwT&ust=1720797036076000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCPDAu9Kin4cDFQAAAAAdAAAAABAJ)
+
+
+
 
 
 
